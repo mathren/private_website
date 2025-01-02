@@ -1,4 +1,4 @@
-#+title: Self-hosted plain html website
+#+title: Self-hosted HTML+CSS simple website
 
 I write the =*.org= files in [[./org-content]], and then use the script
 =build.sh= to invoke a clean instance of emacs and run =build-site.el=,
