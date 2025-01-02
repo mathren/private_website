@@ -1,0 +1,14 @@
+#+title: Self-hosted plain html website
+
+I write the =*.org= files in [[./org-content]], and then use the script
+=build.sh= to invoke a clean instance of emacs and run =build-site.el=,
+which exports to [[./html-content/]] the =*.html=.
+
+Can then be served for example with =python3= (by default on port 8000):
+
+#+begin_src shell
+  cd html-content/
+  python -m http.server
+#+end_src
+
+Tested with Emacs 28.2 - Org mode 9.5.5.
