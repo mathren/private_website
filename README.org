@@ -12,3 +12,8 @@ Can then be served for example with =python3= (by default on port 8000):
 #+end_src
 
 Tested with Emacs 28.2 - Org mode 9.5.5.
+
+*** Dependencies
+- Emacs
+  - =use-package=, =ox-publish=, =htmlize=
+- Python 3 (for hosting)
